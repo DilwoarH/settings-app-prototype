@@ -1,0 +1,51 @@
+
+
+        .app_start{
+            display: block;
+            width: 100%;
+            position: relative;
+            height: 100dvh;
+            padding: 20px 10px 30px 10px;
+        }
+        .app_start figure img{
+          width: 100%;
+        }
+        .app_start_img_1{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        .app_start_img_2{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+        .app_start_data{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+        }
+        .app_start_data h5{
+            font-family: 'Urbanist';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 105%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #005CBA;
+            padding-bottom: 5px;
+        }
+        .app_start_data h2{
+            font-family: 'Urbanist';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 37px;
+            line-height: 115%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #1F854B;
+        }

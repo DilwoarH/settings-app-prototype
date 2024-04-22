@@ -1,0 +1,188 @@
+@import "./1.css";
+@import url("./add-users.css");
+@import url("./appraisal.css");
+@import url("./coaching.css");
+@import url("./email-popup.css");
+@import url("./home.css");
+@import url("./signin.css");
+@import url("./site-setting.css");
+@import url("./style.css");
+@import url("./users.css");
+@import url("./welome.css");
+
+@import url("./post-login.css");
+
+.ant-drawer-mask {
+  background: rgba(31, 133, 75, 0.6) !important;
+  z-index: 10px;
+}
+.ant-table-wrapper .ant-table-container th {
+  background-color: #005cba !important;
+  color: white !important;
+  border: none !important;
+  text-align: center;
+}
+.ant-table-container table {
+  text-align: center !important;
+}
+.ant-table-container table thead th {
+  text-align: center !important;
+}
+.ant-table-tbody tr td {
+  text-align: center !important;
+}
+
+.close-btn-container {
+  display: flex;
+  z-index: 9999999999;
+  justify-content: center;
+}
+.close-btn {
+  background-color: #005cba !important;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-left: 20px;
+  position: absolute;
+  top: -25px;
+  z-index: 9999999999;
+  cursor: pointer;
+}
+
+.table-data-custom-color {
+  color: #1f854b;
+}
+.ant-tabs-tab {
+  background: rgba(31, 133, 75, 0.1);
+  border: none;
+  border-radius: 0px !important;
+}
+
+.ant-tabs-tab h2 {
+  color: #1f854b;
+  margin-bottom: 0px;
+  font-weight: bold;
+  padding: 16px 0;
+  font-size: 18px;
+}
+.ant-tabs-tab.ant-tabs-tab-active {
+  background: #1f854b !important;
+  width: 100%;
+}
+.ant-tabs-tab.ant-tabs-tab-active h2 {
+  color: white;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.ant-tabs-nav-wrap {
+  justify-content: space-between !important;
+}
+.ant-tabs-nav-list {
+  width: 100%;
+  justify-content: center !important;
+}
+.ant-tabs-tab {
+  width: 100%;
+  justify-content: center;
+  height: 60px;
+}
+.ant-collapse {
+  border-radius: 0px !important;
+  border: none;
+}
+.ant-collapse-content {
+  border: none;
+  border-top: none !important;
+}
+.ant-collapse-item {
+  border: none !important;
+  border-radius: 0px !important;
+  background: #ffffff;
+  box-shadow: 0px -4px 80px rgba(2, 41, 100, 0.08);
+  border-radius: 2px;
+  padding: 10px 20px;
+  margin-bottom: 25px !important;
+}
+.ant-collapse-header-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+}
+.ant-collapse-header {
+  padding: 12px 0px !important;
+}
+.ant-switch.ant-switch-checked {
+  background-color: #1f854b !important;
+}
+.restore_btn {
+  width: 74px;
+  height: 29px;
+
+  background: #005cba;
+  border-radius: 2px;
+}
+
+.ant-modal-mask {
+  background: rgba(31, 133, 75, 0.6) !important;
+}
+.ant-collapse-expand-icon {
+  margin-top: 24px !important;
+}
+.ant-select-selector {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 2px;
+  height: 48px;
+  padding: 0px 20px 0px 52px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9ca3af;
+  width: 100%;
+}
+.ant-select-selection-item {
+  background: rgba(31, 133, 75, 0.1) !important;
+}
+.ant-select-selection-item-remove svg {
+  background-color: #005cba !important;
+  color: white !important;
+  border-radius: 50% !important;
+  height: 17px !important;
+  width: 17px !important;
+  padding: 19% !important;
+}
+.ant-select .ant-select-arrow {
+  left: 0 !important;
+  margin-left: 10px;
+}
+.ant-select-selection-overflow {
+  margin-left: 45px !important;
+}
+.ant-select-selection-placeholder {
+  margin-left: 40px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.ant-table-column-title {
+  color: white !important;
+}
+
+.ant-table-pagination.ant-pagination {
+  justify-content: center !important;
+}
+.ant-pagination-item-active {
+  background-color: #005cba !important;
+  color: white !important;
+}

@@ -1,0 +1,138 @@
+.home_page_section {
+  display: block;
+  width: 100%;
+  padding: 34px 24px 30px 24px;
+}
+.home_page_parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.login_user_info_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.login_user_info {
+  display: flex;
+  align-items: center;
+}
+.login_user_info figure {
+  display: flex;
+  margin-right: 8px;
+}
+.login_user_info figure img {
+  width: 30px;
+}
+.login_user_name {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.login_user_name h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111827;
+  padding-bottom: 2px;
+}
+.login_user_name p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #9ca3af;
+}
+.notification_box {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #ebecef;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.notification_box i {
+  font-size: 20px;
+}
+.notification_box small {
+  width: 15px;
+  height: 15px;
+  background: #ef4770;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 6px;
+}
+
+/* home banner section css */
+
+.home_banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.home_banner figure {
+  width: 100%;
+  height: 100%;
+}
+.home_banner figure img {
+  width: 100%;
+  height: 100%;
+}
+
+/* home page listing section css */
+.home_page_listing {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.home_page_listing a {
+  background: #ffffff;
+  box-shadow: 0px -4px 80px rgba(2, 41, 100, 0.12);
+  border-radius: 2px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.home_page_listing a figure {
+  padding-bottom: 12px;
+}
+.home_page_listing a figure img {
+  width: 39px;
+}
+.home_page_listing a h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #022964;
+}
+
+@media (max-width: 370px) {
+  .home_page_listing {
+    grid-template-columns: 1fr 1fr;
+  }
+  .home_page_section {
+    padding: 34px 15px 30px 15px;
+  }
+}

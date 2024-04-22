@@ -1,0 +1,77 @@
+.post-login-wrapper {
+  max-width: 480px;
+  margin: auto;
+  padding: 12px;
+}
+
+.post-login-wrapper h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.post-login-wrapper h6 {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.post-login-wrapper p {
+  font-size: 14px;
+  color: #000;
+}
+
+.post-login-wrapper .border-b {
+  border-bottom: 1px solid black;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.post-login-wrapper .logout-header {
+  color: #1f854b;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.btn-style-post-login {
+  background-color: #1f854b;
+  color: white;
+  font-weight: 500;
+  padding: 4px 26px;
+  border: 1px solid #1f854b;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-style-post-login:hover {
+  background-color: white;
+  color: #1f854b;
+}
+
+@media (min-width: 768px) {
+  .post-login-wrapper {
+    max-width: 680px;
+  }
+
+  .post-login-wrapper h2 {
+    font-size: 26px;
+  }
+
+  .post-login-wrapper h6 {
+    font-size: 16px;
+  }
+
+  .post-login-wrapper p {
+    font-size: 16px;
+  }
+  .post-login-wrapper form span {
+    font-size: 18px;
+  }
+  .post-login-wrapper form input {
+    width: 16px;
+    height: 16px;
+  }
+  .btn-style-post-login {
+    font-size: 20px;
+    padding: 6px 32px;
+  }
+}

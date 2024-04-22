@@ -1,0 +1,105 @@
+.Welcome_page_section {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 34px 24px 30px 24px;
+}
+.Welcome_page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.Welcome_page .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 77px;
+}
+.Welcome_page .logo img {
+  width: 83px;
+}
+.Welcome_page_data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Welcome_page_data figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 46px;
+}
+.Welcome_page_data figure img {
+  max-width: 327px;
+  width: 100%;
+}
+.Welcome_page_data h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #111827;
+  padding-bottom: 5px;
+}
+.Welcome_page_data h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1f854b;
+  padding-bottom: 10px;
+}
+.Welcome_page_data p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9ca3af;
+  padding-bottom: 43px;
+}
+.Welcome_page_continue_btn {
+  background: #1f854b;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  text-decoration: none !important;
+  height: 56px;
+}
+.Welcome_page_signin_btn {
+  background: #f0f5ff;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #005cba !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  height: 56px;
+}
+@media (max-width: 370px) {
+  .Welcome_page_section {
+    padding: 34px 15px 30px 15px;
+  }
+}

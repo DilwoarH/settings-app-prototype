@@ -1,0 +1,187 @@
+.site_setting_page_section{
+  display: block;
+  width: 100%;
+  padding: 34px 24px 30px 24px;
+}
+.setting_on_of {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 27px;
+}
+.setting_on_of h6{
+  font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #111827;
+}
+.setting_on_of form {
+  display: flex;
+}
+.ip_setting {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ip_setting span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #111827;
+  padding-bottom: 8px;
+}
+
+.ip_setting small {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(17, 24, 39, 0.4);
+  padding-bottom: 5px;
+}
+.ip_setting_input {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 5px;
+}
+.ip_setting_input img{
+  position: absolute;
+  left: 12px;
+  display: flex;
+  height: 100%;
+  top: 0px;
+  align-items: center;
+  width: 24px;
+  object-fit: contain;
+}
+.ip_setting_input input {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px 0px 50px;
+}
+.note_box {
+  background: rgba(0, 92, 186, 0.1);
+  box-shadow: 0px -4px 80px rgba(2, 41, 100, 0.08);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 11px 12px;
+}
+.note_box p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 140%;
+  color: #111827;
+  padding-left: 6px;
+}
+
+.branding_parent {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+}
+.branding_single_box{
+  display: grid;
+  width: 100%;
+  gap: 10px;
+}
+
+
+.drag_pic {
+  position: relative;
+}
+.drag_pic label{
+width: 100%;
+background: #E7F1EC;
+box-shadow: 0px -4px 80px rgba(2, 41, 100, 0.08);
+border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-direction: column;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+color: #1F854B;
+padding: 28px 10px;
+}
+.drag_pic label img{
+  width: 46px;
+ margin-bottom: 10px;
+}
+.drag_pic input{
+  display: none;
+}
+
+
+
+
+
+
+
+.branding_custom_input_btn_main {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 108px;
+  gap: 12px;
+}
+.branding_custom_input_btn_main p {
+  display: flex;
+  background: rgba(0, 92, 186, 0.1);
+  box-shadow: 0px -4px 80px rgba(2, 41, 100, 0.08);
+  border-radius: 2px;
+  padding: 8px 6px;
+  align-items: center;
+  font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 11px;
+color: #111827;
+}
+.branding_custom_input_btn_main p img{
+  margin-right: 6px;
+}
+.branding_custom_input_btn {
+  position: relative;
+}
+.branding_custom_input_btn label{
+width: 100%;
+  height: 100%;
+  background: #1F854B;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+}
+.branding_custom_input_btn label i {
+  font-size: 19px;
+  padding-right: 4px;
+}
+.branding_custom_input_btn input{
+  display: none;
+}
+
+@media(max-width:370px){
+  .site_setting_page_section {
+    padding: 34px 15px 30px 15px;
+}
+}
